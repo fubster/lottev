@@ -1,0 +1,12 @@
+This is my attempt at evaluating scratch-off ticket expected value
+in the Michigan State lottery. The lottery board publishes the 
+remaining prizes left unclaimed, and the approximate "probability"
+of holding a winning ticket. If we assume that their estimates
+are correct, we can infer the total number of tickets remaining,
+and calculate the expected return for each ticket based on the
+total unclaimed prizepool that remains. Hopefully at some point
+I'll figure out how to scrape the lotto site for this data,
+maybe I'll use some sort of wget/curl/shell script thing for that
+until then.
+
+All lottery data from http://milottery.state.mi.us/msl-ig-trigps.php
